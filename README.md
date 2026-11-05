@@ -11,7 +11,8 @@ Each value below is a SHA-256 hash or a public seed. Once the materials are reve
 | Server code SHA-256 (version 0.8.2; the files and their hashes, hashed together in sorted order) | `5e111a91ec707d4054d67c385d6405b7c80ee6a62a6fc4a8cbec7266d068a951` |
 | Probe-schedule seed text SHA-256 | `af6fcee6b333960ffbb02619817dc535f641601fa4b3ae682e4224e1c7f1f8a5` |
 | Monte Carlo seed (public) | `7843484276932513151` |
-| Registration document SHA-256 | added in a later commit |
+| Registration document SHA-256 (the file attached to the OSF registration) | `5decc5dbcd381a0b54e0377d5ebc69bcb867ab5d365a843b4cd401053476db64` |
+| Sealed list of the software models used (revealed with the results) SHA-256 | `87b4c82d3b32edafd389cf15e3f740ea366210875d874028553545267a30cb66` |
 
 ## How the schedule is derived from the seed
 
