@@ -13,6 +13,11 @@ Each value below is a SHA-256 hash or a public seed. Once the materials are reve
 | Monte Carlo seed (public) | `7843484276932513151` |
 | Registration document SHA-256 (the file attached to the OSF registration; final after an independent review, replacing an earlier draft's `5decc5db…76db64`) | `99648bc21030af0f77f857e0a7175aa3d516e5916848318fa73ebe1e9f7f59fc` |
 | Sealed list of the software models used (revealed with the results) SHA-256 | `87b4c82d3b32edafd389cf15e3f740ea366210875d874028553545267a30cb66` |
+| Addendum 1 (10 November 2026): baseline outputs document SHA-256 | `ebff2b116bec39c889d1da1d76e9db0dd7e97569a9e550967b018edc9f37929e` |
+| Addendum 1: frozen baseline script (version 1.1) SHA-256 | `b5d6305b707f6097e6851b377c5325f0ea737096f9c9640aa5cda7c3052967d1` |
+| Addendum 1: the script's input (metadata-only baseline extract) SHA-256 | `4dda6c056b0c5309c1fe49e22d9b5f2cbaf04520b3d3b3e69314b224f4189d6f` |
+| Addendum 1: the script's output SHA-256 | `4499a6d7116bc1b090811dc6986585708ca32ca6f12603650f2519c30e3db5c7` |
+| Masking key for the A/B/C condition labels (the file includes a 256-bit nonce; held sealed by a third person until unmasking) SHA-256 | `b07dd562790385f7240e1a33d54b8249ee597bcfa88106b5a8b0235fb8fc8c41` |
 
 ## How the schedule is derived from the seed
 
@@ -30,4 +35,4 @@ Each value below is a SHA-256 hash or a public seed. Once the materials are reve
 
 After the study, the seed is revealed. Its SHA-256 must equal the commitment above, and recomputing the derivation must reproduce the schedule that was run.
 
-First committed 5 November 2026.
+First committed 5 November 2026. Addendum 1 fingerprints added 10 November 2026.
