@@ -18,6 +18,10 @@ Each value below is a SHA-256 hash or a public seed. Once the materials are reve
 | Addendum 1: the script's input (metadata-only baseline extract) SHA-256 | `4dda6c056b0c5309c1fe49e22d9b5f2cbaf04520b3d3b3e69314b224f4189d6f` |
 | Addendum 1: the script's output SHA-256 | `4499a6d7116bc1b090811dc6986585708ca32ca6f12603650f2519c30e3db5c7` |
 | Masking key for the A/B/C condition labels (the file includes a 256-bit nonce; held sealed by a third person until unmasking) SHA-256 | `b07dd562790385f7240e1a33d54b8249ee597bcfa88106b5a8b0235fb8fc8c41` |
+| Addendum 2 (20 November 2026): the addendum document SHA-256 | `6633147e87782e82e0c65f9043bba0d0921047029e2871219557b515149bd7d3` |
+| Addendum 2: the frozen analysis scripts and text classifier, the whole set (67 files, hashed together by the rule in the set's FINGERPRINTS.md) SHA-256 | `f27d5cfb38189ca02cb434284a0b4d8037872f35856a0112b0ba6459b6c560df` |
+| Addendum 2: second sealed list (the classifier, leakage-audit, model-rater and validation-coder models; revealed with the results) SHA-256 | `44f1fae247e8808de448a333f3500098fab8e998008816c6729c6b0885b0de3c` |
+| Addendum 2: the valence lexicon file read by two measures (NRC VAD Lexicon v2.1, `NRC-VAD-Lexicon-v2.1.txt`, obtained from its authors) SHA-256 | `42c718817fc91d5c133581b24b0bb31d2b14a0b16edb19bc6ce6ab70343e5a45` |
 
 ## How the schedule is derived from the seed
 
@@ -35,4 +39,4 @@ Each value below is a SHA-256 hash or a public seed. Once the materials are reve
 
 After the study, the seed is revealed. Its SHA-256 must equal the commitment above, and recomputing the derivation must reproduce the schedule that was run.
 
-First committed 5 November 2026. Addendum 1 fingerprints added 10 November 2026.
+First committed 5 November 2026. Addendum 1 fingerprints added 10 November 2026. Addendum 2 fingerprints (analysis scripts and text classifier, frozen before any unmasking) added 20 November 2026.
